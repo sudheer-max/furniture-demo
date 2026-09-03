@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-cinzel: 'Poppins', system-ui, -apple-system, sans-serif;
+  --color-atelier-cream: #FAF8F5;
+  --color-atelier-sand: #F4EFEB;
+  --color-atelier-card: #F0ECE6;
+  --color-atelier-dark: #1A1917;
+  --color-atelier-charcoal: #2A2825;
+  --color-atelier-stone: #E5E0D8;
+  --color-atelier-muted: #7E7A73;
+}
+
+@layer base {
+  *, body, button, input, select, textarea {
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #1A1917;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-serif, .font-sans {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5CEC5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B3ABA0;
+}
+

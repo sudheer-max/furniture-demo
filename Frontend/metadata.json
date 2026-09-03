@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Vézère",
+  "description": "Architectural Furniture & Spatial Commissions — Hand-crafted furniture, bespoke spatial commissions, and precision 3D configurator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
